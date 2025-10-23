@@ -1,0 +1,25 @@
+Requisitos de Bibliotecas (Conceitual para Java)
+
+Este arquivo lista dependências externas necessárias.
+
+Em um projeto Java usando Maven, esta informação estaria no pom.xml.
+
+Requisito 1: Conexão com Banco de Dados
+
+Biblioteca para acesso a dados (Ex: H2, PostgreSQL, MySQL JDBC Driver)
+
+java-sql-jdbc-driver
+
+Requisito 2: Gerenciamento de Configuração/Serialização
+
+Biblioteca para manipulação de JSON/YAML, útil para dados adicionais e observações.
+
+com.google.code.gson
+
+Requisito 3: Utilitários e Tipos de Dados Avançados
+
+java.time
+
+Requisito 4: Testes (Estrutura não implementada neste exemplo, mas essencial)
+
+junit-platform-engine
